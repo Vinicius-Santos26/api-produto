@@ -4,7 +4,7 @@ const app = express();
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://root:oliveira1@cluster0.wgsftic.mongodb.net/estoque-produto');
+mongoose.connect('mongodb+srv://user:password@cluster0.wgsftic.mongodb.net/estoque-produto');
 
 app.use(express.json());
 
